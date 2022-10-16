@@ -5,6 +5,7 @@ CREATE TABLE `reservation_info` (
   `hospital_id` int,
   `user_id` int,
   `reservation_time` varchar(255),
+  `reservation_date` varchar(255),
   `reservation_type_id` int,
   `is_visit` TINYINT,
   create_at DATETIME DEFAULT NOW(),
