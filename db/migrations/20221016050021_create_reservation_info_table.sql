@@ -7,7 +7,7 @@ CREATE TABLE `reservation_info` (
   `reservation_time` varchar(255),
   `reservation_date` varchar(255),
   `reservation_type_id` int,
-  `is_visit` TINYINT,
+  `is_visit` TINYINT DEFAULT 0,
   create_at DATETIME DEFAULT NOW(),
   update_at DATETIME DEFAULT NOW() ON UPDATE CURRENT_TIMESTAMP,
   FOREIGN KEY (hospital_id) REFERENCES hospital(id) ON UPDATE CASCADE,
