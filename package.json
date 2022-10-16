@@ -1,0 +1,28 @@
+{
+  "name": "pre_onboarding_2week_lululab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhj1008/pre_onboarding_2week_lululab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhhj1008/pre_onboarding_2week_lululab/issues"
+  },
+  "homepage": "https://github.com/hhhj1008/pre_onboarding_2week_lululab#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "typeorm": "^0.3.10"
+  }
+}
