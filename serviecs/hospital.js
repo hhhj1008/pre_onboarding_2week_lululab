@@ -1,6 +1,6 @@
 const hospitalModel = require("../models/hospital");
 const reservationInfoModel = require("../models/reservation_info");
-const { throwErrorMsg } = require("./throwErrorMsg");
+const {throwErrorMsg} = require("./throwError");
 
 const getRezAbleHospitalList = async (params) => {
   const hospitals = await hospitalModel.selectHospital(params);
