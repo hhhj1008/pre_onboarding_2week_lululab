@@ -26,7 +26,7 @@ const addReservation = async (params) => {
   // 예약 번호 생성
   let reservation_number = await reservationInfoModel.CheckReservationNumber(dateStr);
 
-  if (reservation_number) {
+  if (reservation_number.length == 1) {
     reservation_number = Number(reservation_number[0].reservation_number) + 1;
   } else {
     reservation_number = dateStr + 000001;
