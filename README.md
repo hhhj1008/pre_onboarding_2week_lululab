@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"/>&nbsp;
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>&nbsp;
 <img src="https://img.shields.io/badge/TypeORM-262627?style=for-the-badge&logo=TypeORM&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/postman-%23FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 
 ## 개요
 
