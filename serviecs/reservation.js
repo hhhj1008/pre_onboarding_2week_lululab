@@ -29,7 +29,7 @@ const addReservation = async (params) => {
   if (reservation_number.length == 1) {
     reservation_number = Number(reservation_number[0].reservation_number) + 1;
   } else {
-    reservation_number = dateStr + 000001;
+    reservation_number = dateStr + '000001';
   }
 
   // 예약 시간 체크
