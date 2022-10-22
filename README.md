@@ -21,7 +21,7 @@
 
 ### DB모델링
 
-![2주차 - 하이퍼클라우드](https://user-images.githubusercontent.com/110225060/196066269-e423a0d4-24a8-46c3-9c4f-083bbff736e8.png)
+![](https://user-images.githubusercontent.com/110225060/196066269-e423a0d4-24a8-46c3-9c4f-083bbff736e8.png)
 
 <br>
 
